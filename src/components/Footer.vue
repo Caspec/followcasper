@@ -2,7 +2,7 @@
   <div>
     <div id="container">
     <div id="contacts">
-      <div id="contacts--social">
+      <div id="contacts--social" class="mt-2">
         <div class="mt-1">
         <a href="https://github.com/Caspec" target="_blank"> 
             <img class="img-fluid" :src="require('../assets/GitHub_Logo_White.png')" alt="Social" />
@@ -20,7 +20,7 @@
         </div>
       </div>
     </div>
-    <div id="mentions" class="mt-4">
+    <div id="mentions" class="mt-4 pt-4">
       <p>&copy; Casper 2020</p>
     </div>
    </div>

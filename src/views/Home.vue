@@ -1,8 +1,8 @@
 <template>
   <div class="home">
-    <h1 class="mt-2 mb-2">home....</h1>
+    <h1 class="mt-2 mb-2">home.... tbd grid...</h1>
     <h4>bla bla bla</h4>
-    <b-container class="bv-example-row">
+    <b-container class="bv-row">
       <b-row>
         <b-col>
           <div>

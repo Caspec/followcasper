@@ -21,7 +21,7 @@
       </div>
     </div>
     <div id="mentions" class="mt-4 pt-4">
-      <p>&copy; Casper 2020</p>
+      <p>&copy; 2020 Casper - Full Stack Web developer </p>
     </div>
    </div>
   </div>

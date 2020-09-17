@@ -2,7 +2,7 @@
   <div class="nav">
     <b-container class="bv-row">
       <b-row class="text-left text-white">
-        <b-col class="text-center pt-3">
+        <b-col class="pt-3">
           <router-link to="/" class="logotext">followcasper</router-link>
         </b-col>
         <b-col cols="8">
@@ -40,6 +40,8 @@ export default {};
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
+
+
 .nav {
   background-color: #000;
   padding: 10px;
@@ -48,11 +50,12 @@ export default {};
 .logotext {
   font-family: "Righteous", cursive;
   text-decoration: none;
-  color: #fff !important;
+  color: #fff;
 }
 
 .logotext:hover {
   text-decoration: none;
+  color: #2c8fd1;
 }
 
 .dropdown-menu {
@@ -63,12 +66,20 @@ export default {};
 
 .dropdown-item {
   background-color: rgb(0,0,0) !important;
-  color: #fff !important;
+  color: #c4c4c4 !important;
 }
 
 .dropdown-item:hover {
   background-color: rgba(48, 48, 48, 0.79) !important;
-  color: #fff !important;
+  color: #a50101 !important;
+}
+
+.nav-link {
+  color: #ff0000 !important;
+}
+
+.nav-link:hover {
+  color: #a50101 !important;
 }
 
 </style>

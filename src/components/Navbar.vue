@@ -64,7 +64,6 @@ export default {};
 .dropdown-menu {
   background-color: rgb(0,0,0) !important;
   color: #fff !important;
-  padding-top: 26px !important;
 }
 
 .dropdown-item {
@@ -102,12 +101,18 @@ export default {};
   padding-left: 0em;
   margin-left: 0em;
  }
+ .dropdown-menu {
+  padding-top: 0px !important;
+}
 }
 
 @media screen and (min-width: 992px) {
  .nav-space { 
   margin-left: 6em;
  }
+  .dropdown-menu {
+  padding-top: 26px !important;
+}
 }
 
 </style>

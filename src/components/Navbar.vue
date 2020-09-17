@@ -38,9 +38,6 @@ export default {};
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
-
-
 
 .nav {
   background-color: #000;
@@ -67,6 +64,7 @@ export default {};
 .dropdown-item {
   background-color: rgb(0,0,0) !important;
   color: #c4c4c4 !important;
+  font-family: "Roboto", sans-serif;
 }
 
 .dropdown-item:hover {
@@ -76,6 +74,7 @@ export default {};
 
 .nav-link {
   color: #ff0000 !important;
+  font-family: "Roboto", sans-serif;
 }
 
 .nav-link:hover {

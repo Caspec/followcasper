@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap"); /* Logo */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); /* h1,h2,h3,h4 */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans'); /* Bread */
+
+body {
+    font-family: "Open Sans", sans-serif !important;
+}
+
+h1 {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    font-family: "Roboto", sans-serif; 
+}
+
+h4 {
+    font-family: "Roboto", sans-serif; 
+}

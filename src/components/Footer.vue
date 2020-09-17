@@ -35,8 +35,6 @@ export default {
 
 <style>
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 #container{
   padding-top: 20px;
   margin-top: 20px;
@@ -72,7 +70,8 @@ export default {
 }
 
 #mentions p {
-  font-size:1em;
+  font-size: 1em;
+  font-family: "Open Sans", sans-serif;
 }
 
 </style>

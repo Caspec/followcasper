@@ -5,23 +5,23 @@
       <div id="contacts--social" class="mt-2">
         <div class="mt-1">
         <a href="https://github.com/Caspec" target="_blank"> 
-            <img class="img-fluid" :src="require('../assets/GitHub_Logo_White.png')" alt="Social" />
+            <img class="img-fluid" :src="require('../assets/GitHub_Logo_White.png')" alt="Social" title="Github profile" />
         </a>
         </div>
         <div class="ml-2">
         <a href="https://www.linkedin.com/pub/casper-christensen/22/70b/8a4" target="_blank"> 
-            <img class="img-fluid" :src="require('../assets/LI-In-Bug.png')" alt="Social" />
+            <img class="img-fluid" :src="require('../assets/LI-In-Bug.png')" alt="Social" title="Linkedin profile" />
         </a>
         </div>
         <div class="ml-2 mt-1">
         <a href="https://twitter.com/followcasper88" target="_blank"> 
-            <img class="img-fluid" :src="require('../assets/Twitter_Social_Icon_Circle_Color.png')" alt="Social" />
+            <img class="img-fluid" :src="require('../assets/Twitter_Social_Icon_Circle_Color.png')" alt="Social" title="Twitter profile" />
         </a>
         </div>
       </div>
     </div>
     <div id="mentions" class="mt-4 pt-4">
-      <p>&copy; 2020 Casper - Full Stack Web developer </p>
+      <p>&copy; 2020 Casper - Full Stack Web Developer </p>
     </div>
    </div>
   </div>
@@ -59,7 +59,7 @@ export default {
 
 @media screen and (max-width: 768px) {
  #contacts--social { 
-  width: 40%;
+  width: 40% !important;
  }
 }
 

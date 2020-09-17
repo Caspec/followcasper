@@ -1,35 +1,40 @@
 <template>
-  <div class="nav">
-    <b-container class="bv-row">
-      <b-row class="text-left text-white">
-        <b-col class="pt-3">
-          <router-link to="/" class="logotext">followcasper</router-link>
-        </b-col>
-        <b-col cols="8">
-          <b-navbar type="black" variant="black">
-            <b-navbar-nav>
-              <b-nav-item :to="{ name: 'Home'}">Home</b-nav-item>
-              <!-- Navbar dropdowns -->
-              <b-nav-item-dropdown text="Portfolio" center>
-                <b-dropdown-item :to="{ name: 'About'}">About</b-dropdown-item>
-                <b-dropdown-item href="#">2</b-dropdown-item>
-                <b-dropdown-item href="#">3</b-dropdown-item>
-                <b-dropdown-item href="#">4</b-dropdown-item>
-              </b-nav-item-dropdown>
+  <div class="navbg">
+  <b-navbar toggleable="lg" type="dark" variant="black">
+  <b-navbar-brand>
+  <router-link to="/" class="logotext" title="Casper - Full Stack Web Developer">followcasper</router-link>
+  </b-navbar-brand>
 
-              <b-nav-item-dropdown text="User" left>
-                <b-dropdown-item href="#">Account</b-dropdown-item>
-                <b-dropdown-item href="#">Settings</b-dropdown-item>
-              </b-nav-item-dropdown>
-            </b-navbar-nav>
-          </b-navbar>
-        </b-col>
-        <b-col class="text-center pt-3">
-          <router-link to="/"><img class="img-fluid" :src="require('../assets/denmark-flag-icon-16.png')" alt="DK" /></router-link>
-          <router-link to="/"><img class="img-fluid pl-2" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" /></router-link>
-        </b-col>
-      </b-row>
-    </b-container>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+
+    <b-collapse id="nav-collapse" is-nav>
+      <b-navbar-nav class="nav-space">
+        <b-nav-item href="#">Link1</b-nav-item>
+        <b-nav-item href="#">Link2</b-nav-item>
+        <b-nav-item-dropdown text="Portfolio">
+              <b-dropdown-item :to="{ name: 'About'}">About</b-dropdown-item>
+              <b-dropdown-item href="#">2</b-dropdown-item>
+              <b-dropdown-item href="#">3</b-dropdown-item>
+              <b-dropdown-item href="#">4</b-dropdown-item>
+        </b-nav-item-dropdown>
+      </b-navbar-nav>
+
+      <!-- Right aligned nav items -->
+      <b-navbar-nav class="ml-auto">
+        <b-nav-item><router-link to="/"><img class="img-fluid" :src="require('../assets/denmark-flag-icon-16.png')" alt="DK" title="DK" /></router-link></b-nav-item>
+        <b-nav-item><router-link to="/"><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /></router-link></b-nav-item>
+
+        <b-nav-item-dropdown right>
+          <!-- Using 'button-content' slot -->
+          <template v-slot:button-content>
+            <span>Login</span>
+          </template>
+          <b-dropdown-item href="#">Profile</b-dropdown-item>
+          <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+        </b-nav-item-dropdown>
+      </b-navbar-nav>
+    </b-collapse>
+  </b-navbar>
   </div>
 </template>
 
@@ -39,7 +44,7 @@ export default {};
 
 <style>
 
-.nav {
+.navbg {
   background-color: #000;
   padding: 10px;
 }
@@ -48,6 +53,7 @@ export default {};
   font-family: "Righteous", cursive;
   text-decoration: none;
   color: #fff;
+  font-size: 1.8em;
 }
 
 .logotext:hover {
@@ -58,7 +64,7 @@ export default {};
 .dropdown-menu {
   background-color: rgb(0,0,0) !important;
   color: #fff !important;
-  padding-top: 15px !important;
+  padding-top: 26px !important;
 }
 
 .dropdown-item {
@@ -79,6 +85,29 @@ export default {};
 
 .nav-link:hover {
   color: #a50101 !important;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: #000 !important;
+  color: #000 !important;
+  padding-top: 0.6em; 
+}
+
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+@media screen and (max-width: 992px) {
+ .nav-space { 
+  padding-left: 0em;
+  margin-left: 0em;
+ }
+}
+
+@media screen and (min-width: 992px) {
+ .nav-space { 
+  margin-left: 6em;
+ }
 }
 
 </style>

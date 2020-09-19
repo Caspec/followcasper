@@ -9,23 +9,32 @@
 
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav class="nav-space">
-        <b-nav-item href="#">Link1</b-nav-item>
-        <b-nav-item href="#">Link2</b-nav-item>
+        <b-nav-item :to="{ name: 'Home'}">Home</b-nav-item>
+        <b-nav-item :to="{ name: 'About'}">About</b-nav-item>
         <b-nav-item-dropdown text="Portfolio">
-              <b-dropdown-item :to="{ name: 'About'}">About</b-dropdown-item>
+              <b-dropdown-item :to="{ name: 'About'}">1</b-dropdown-item>
               <b-dropdown-item href="#">2</b-dropdown-item>
               <b-dropdown-item href="#">3</b-dropdown-item>
               <b-dropdown-item href="#">4</b-dropdown-item>
+              <b-dropdown-item href="#">5</b-dropdown-item>
         </b-nav-item-dropdown>
+        <b-nav-item :to="{ name: 'Articles'}">Articles</b-nav-item>
+        <b-nav-item :to="{ name: 'CV'}">CV</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
-        <b-nav-item><router-link to="/"><img class="img-fluid" :src="require('../assets/denmark-flag-icon-16.png')" alt="DK" title="DK" /></router-link></b-nav-item>
-        <b-nav-item><router-link to="/"><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /></router-link></b-nav-item>
+        <b-button class="inTouch" variant="primary" :to="{ name: 'Contact'}">Get In Touch</b-button>
+
+         <b-nav-item-dropdown right>
+          <template v-slot:button-content>
+            <span><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /></span>
+          </template>
+          <b-dropdown-item href="#"><router-link to="/"><img class="img-fluid" :src="require('../assets/denmark-flag-icon-16.png')" alt="DK" title="DK" /></router-link></b-dropdown-item>
+          <b-dropdown-item href="#"><router-link to="/"><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /></router-link></b-dropdown-item>
+        </b-nav-item-dropdown>
 
         <b-nav-item-dropdown right>
-          <!-- Using 'button-content' slot -->
           <template v-slot:button-content>
             <span>Login</span>
           </template>
@@ -74,16 +83,16 @@ export default {};
 
 .dropdown-item:hover {
   background-color: rgba(48, 48, 48, 0.79) !important;
-  color: #a50101 !important;
+  color: #2376ad !important;
 }
 
 .nav-link {
-  color: #ff0000 !important;
+  color: #31a0eb !important;
   font-family: "Roboto", sans-serif;
 }
 
 .nav-link:hover {
-  color: #a50101 !important;
+  color: #2c8fd1 !important;
 }
 
 .navbar-dark .navbar-toggler {
@@ -94,6 +103,10 @@ export default {};
 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.inTouch {
+  margin-right: 10px !important;
 }
 
 @media screen and (max-width: 992px) {

@@ -58,7 +58,7 @@
       </b-carousel-slide>
     </b-carousel>
 
-    <b-container class="bv-row mt-3">
+    <b-container class="bv-row mt-3 pt-3 pb-3">
       <b-row>
         <b-col>
           <h1>Full Stack Web Developer</h1>
@@ -66,7 +66,7 @@
       </b-row>
       <b-row>
         <b-col>
-          <h3>Hi. I am Casper, a Full Stack Web Developer with a great interest in making websites and web applications.</h3>
+          <h3>Hi. I am Casper, a Full Stack Web Developer with a great interest in making websites and web applications. Read more about me and what I do in the about section.</h3>
         </b-col>
       </b-row>
     </b-container>
@@ -76,17 +76,17 @@
         <b-col>
           <img class="img-fluid pb-3" :src="require('../assets/dot1x200w.png')" alt="dot" title="Frontend Development" />
           <h3>Frontend Development</h3>
-          <p>some text some text......</p>
+          <p>Responsive websites built for an optimal user experience that achieves your business goals.</p>
         </b-col>
         <b-col>
           <img class="img-fluid pb-3" :src="require('../assets/dot2x200w.png')" alt="dot" title="Full Stack Development" />
           <h3>Full Stack Development</h3>
-          <p>some text some text......</p>
+          <p>Systems to be integrated together on different platforms and systems.</p>
         </b-col>
         <b-col>
           <img class="img-fluid pb-3" :src="require('../assets/dot3x200w.png')" alt="dot" title="CMS Development" />
           <h3>CMS Development</h3>
-          <p>some text some text......</p>
+          <p>Manage your content using the web's most popular content management systems.</p>
         </b-col>
       </b-row>
     </b-container>
@@ -101,7 +101,7 @@
 
     <b-container class="bv-row mt-4">
       <b-row>
-        <b-col><h3>Featured work and in progress</h3></b-col>
+        <b-col><h3>Featured work, work in progress and newest articles</h3></b-col>
       </b-row>
       <b-row>
         <b-col>

@@ -26,20 +26,20 @@
       <b-navbar-nav class="ml-auto">
         <b-button class="inTouch" variant="primary" :to="{ name: 'Contact'}">Get In Touch</b-button>
 
-         <b-nav-item-dropdown right>
-          <template v-slot:button-content>
-            <span><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /></span>
-          </template>
-          <b-dropdown-item href="#"><router-link to="/"><img class="img-fluid" :src="require('../assets/denmark-flag-icon-16.png')" alt="DK" title="DK" /></router-link></b-dropdown-item>
-          <b-dropdown-item href="#"><router-link to="/"><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /></router-link></b-dropdown-item>
-        </b-nav-item-dropdown>
-
         <b-nav-item-dropdown right>
           <template v-slot:button-content>
             <span>Login</span>
           </template>
           <b-dropdown-item href="#">Profile</b-dropdown-item>
           <b-dropdown-item href="#">Sign Out</b-dropdown-item>
+        </b-nav-item-dropdown>
+
+        <b-nav-item-dropdown right>
+          <template v-slot:button-content>
+            <span><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /> ENG</span>
+          </template>
+          <b-dropdown-item :to="{ name: 'Home'}"><img class="img-fluid" :src="require('../assets/denmark-flag-icon-16.png')" alt="DK" title="DK" /> DK</b-dropdown-item>
+          <b-dropdown-item :to="{ name: 'Home'}"><img class="img-fluid" :src="require('../assets/united-kingdom-flag-icon-16.png')" alt="ENG" title="ENG" /> ENG</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
     </b-collapse>
@@ -84,6 +84,7 @@ export default {};
 .dropdown-item:hover {
   background-color: rgba(48, 48, 48, 0.79) !important;
   color: #2376ad !important;
+  text-decoration: none !important;
 }
 
 .nav-link {
@@ -93,6 +94,7 @@ export default {};
 
 .nav-link:hover {
   color: #2c8fd1 !important;
+  text-decoration: none !important;
 }
 
 .navbar-dark .navbar-toggler {

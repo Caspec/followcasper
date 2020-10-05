@@ -66,7 +66,7 @@
       </b-row>
       <b-row>
         <b-col>
-          <h3>Hi. I am Casper, a Full Stack Web Developer with a great interest in making websites and web applications. Read more about me and what I do in the about section.</h3>
+          <h3>Hi. I am Casper, a Full Stack Web Developer with a great interest in making websites and web applications. Read more about me and what I do in the <router-link  to="/about">about section.</router-link></h3>
         </b-col>
       </b-row>
     </b-container>

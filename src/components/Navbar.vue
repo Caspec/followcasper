@@ -19,7 +19,7 @@
               <b-dropdown-item href="#">5</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item :to="{ name: 'Articles'}">Articles</b-nav-item>
-        <b-nav-item :to="{ name: 'CV'}">CV</b-nav-item>
+        <b-nav-item href="./cv-casperENG.pdf" target="_blank">CV</b-nav-item>
       </b-navbar-nav>
 
       <!-- Right aligned nav items -->

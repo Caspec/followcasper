@@ -8,6 +8,7 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
     <b-collapse id="nav-collapse" is-nav>
+      <img class="img-fluid shadow bg-white" :src="require('../assets/underconstructionsmall.png')" alt="underdevelopment" title="underdevelopment" />
       <b-navbar-nav class="nav-space">
         <b-nav-item :to="{ name: 'Home'}">Home</b-nav-item>
         <b-nav-item :to="{ name: 'About'}">About</b-nav-item>
@@ -30,7 +31,7 @@
           <template v-slot:button-content>
             <span>Login</span>
           </template>
-          <b-dropdown-item href="#">Profile</b-dropdown-item>
+          <b-dropdown-item href="#">Login</b-dropdown-item>
           <b-dropdown-item href="#">Sign Out</b-dropdown-item>
         </b-nav-item-dropdown>
 

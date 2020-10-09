@@ -3,17 +3,17 @@
     <b-container class="bv-row mt-3 pt-3 pb-3">
       <b-row>
         <b-col>
-          <img class="img-fluid shadow bg-white" :src="require('../assets/me.png')" alt="Me" title="Me" />
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
           <h1 class="mt-2">About me</h1>
         </b-col>
       </b-row>
       <b-row>
         <b-col>
           <h3>Hi. I am Casper, a Full Stack Web Developer with a great interest in making websites and web applications.</h3>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <img class="img-fluid shadow bg-white" :src="require('../assets/me.png')" alt="Me" title="Me" />
         </b-col>
       </b-row>
     </b-container>
@@ -26,25 +26,47 @@
       </b-row>
     </b-container>
 
-    <b-container class="bv-row mt-4 fluid">
+    <b-container class="bv-row mt-2 fluid">
       <b-row>
         <b-col>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>I work to make a better web; one that is fast, easy to use, beautiful, accessible to all, and frustration-free. Regardless of your specific business requirements, in solving these challenges, you have a great chance of finding success online.</p>
         </b-col>
       </b-row>
       <b-row>
         <b-col>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <p>My main experience is in Full Stack Development. Given that producing a modern website requires the combination of design, server technology, and the layer that users interacts with, I believe having experience in both design and development allows for making the most optimal user experiences.</p>
+        </b-col>
+      </b-row>
+    </b-container>
+
+    <b-container class="bv-row fluid">
+      <b-row>
+        <b-col>
+         <h4>Skill set</h4>
         </b-col>
       </b-row>
       <b-row>
         <b-col>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+          <ul class="list-unstyled mt-2">
+            <li>
+              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/sourcex2.png')" alt="Source" title="Source" /> Full Stack Web Development</span>
+            </li>
+            <li class="pt-2">
+              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/vuex2.png')" alt="Vue" title="Vue" /> Vue</span>
+            </li>
+            <li class="pt-2">
+              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/reactx2.png')" alt="React" title="React" /> React</span>
+            </li>
+            <li class="pt-2">
+              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/javascriptx2.png')" alt="JS" title="JS" /> JS</span>
+            </li>
+            <li class="pt-2">
+              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/axx2.png')" alt="AX" title="AX" /> Accessibility</span>
+            </li>
+            <li class="pt-2">
+              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/morex2.png')" alt="More" title="More" /> More</span>
+            </li>
+          </ul>
         </b-col>
       </b-row>
     </b-container>

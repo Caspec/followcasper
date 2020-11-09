@@ -26,7 +26,7 @@
             />
           </router-link>
         </template>
-        <h2 class="text-white">Slide 1</h2>
+        <h2 class="text-white">Full Stack Web Development</h2>
       </b-carousel-slide>
       <b-carousel-slide>
         <template v-slot:img>
@@ -40,21 +40,7 @@
             />
           </router-link>
         </template>
-        <h2 class="text-white">Slide 2</h2>
-      </b-carousel-slide>
-      <b-carousel-slide>
-        <template v-slot:img>
-          <router-link to="/">
-            <img
-              class="d-block img-fluid w-100"
-              width="1500"
-              height="200"
-              :src="require('../assets/slide3.png')"
-              alt="slide"
-            />
-          </router-link>
-        </template>
-        <h2 class="text-white">Slide 3</h2>
+        <h2 class="text-white">Cloud - CMS - Server setup - UX and more...</h2>
       </b-carousel-slide>
     </b-carousel>
 
@@ -101,62 +87,14 @@
 
     <b-container class="bv-row mt-4">
       <b-row>
-        <b-col><h3>Featured work, work in progress and newest articles</h3></b-col>
+        <b-col><h2>Website is live... <img class="img-fluid" :src="require('../assets/green.png')" alt="Live" title="Live" /></h2></b-col>
+      </b-row>
+      <b-row>
+        <b-col><h4>09-11-2020</h4></b-col>
       </b-row>
       <b-row>
         <b-col>
-          <b-card img-alt="Image" img-top tag="article" class="mb-3">
-            <b-card-img
-              fluid
-              :src="require('../assets/crophead1.png')"
-              alt="Image"
-              class="rounded-0"
-            ></b-card-img>
-            <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-          </b-card>
-        </b-col>
-        <b-col>
-          <b-card img-alt="Image" img-top tag="article" class="mb-3">
-            <b-card-img
-              fluid
-              :src="require('../assets/crophead1.png')"
-              alt="Image"
-              class="rounded-0"
-            ></b-card-img>
-            <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-          </b-card>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <b-card img-alt="Image" img-top tag="article" class="mb-3">
-            <b-card-img
-              fluid
-              :src="require('../assets/crophead1.png')"
-              alt="Image"
-              class="rounded-0"
-            ></b-card-img>
-            <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-          </b-card>
-        </b-col>
-        <b-col>
-          <b-card img-alt="Image" img-top tag="article" class="mb-3">
-            <b-card-img
-              fluid
-              :src="require('../assets/crophead1.png')"
-              alt="Image"
-              class="rounded-0"
-            ></b-card-img>
-            <b-card-text>Some quick example text to build on the card title and make up the bulk of the card's content.</b-card-text>
-
-            <b-button href="#" variant="primary">Go somewhere</b-button>
-          </b-card>
+          <img class="img-fluid mb-3 shadow bg-white" :src="require('../assets/newwebsite.png')" alt="New website" title="New website" />
         </b-col>
       </b-row>
     </b-container>

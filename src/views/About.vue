@@ -47,24 +47,24 @@
       </b-row>
       <b-row>
         <b-col>
-          <ul class="list-unstyled mt-2">
+          <ul class="list">
             <li>
-              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/sourcex2.png')" alt="Source" title="Source" /> Full Stack Web Development</span>
+              <span class="font-weight-bold">Full Stack Web Development</span>
             </li>
-            <li class="pt-2">
-              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/vuex2.png')" alt="Vue" title="Vue" /> Vue</span>
+            <li>
+              <span class="font-weight-bold">VueJS</span>
             </li>
-            <li class="pt-2">
-              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/reactx2.png')" alt="React" title="React" /> React</span>
+            <li>
+              <span class="font-weight-bold">JavaScript</span>
             </li>
-            <li class="pt-2">
-              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/javascriptx2.png')" alt="JS" title="JS" /> JS</span>
+             <li>
+              <span class="font-weight-bold">CMS</span>
             </li>
-            <li class="pt-2">
-              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/axx2.png')" alt="AX" title="AX" /> Accessibility</span>
+            <li>
+              <span class="font-weight-bold">Accessibility</span>
             </li>
-            <li class="pt-2">
-              <span class="font-weight-bold"><img class="img-fluid" :src="require('../assets/morex2.png')" alt="More" title="More" /> More</span>
+            <li>
+              <span class="font-weight-bold">... More</span>
             </li>
           </ul>
         </b-col>

@@ -90,11 +90,13 @@
         <b-col><h2>Website is live... <img class="img-fluid" :src="require('../assets/green.png')" alt="Live" title="Live" /></h2></b-col>
       </b-row>
       <b-row>
-        <b-col><h4>09-11-2020</h4></b-col>
+        <b-col><h5>09-11-2020</h5></b-col>
       </b-row>
       <b-row>
         <b-col>
           <img class="img-fluid mb-3 shadow bg-white" :src="require('../assets/newwebsite.png')" alt="New website" title="New website" />
+          <p>Super cool that I got this site up and running. My next project is under way and I can reveal that it has something with the real-estate area.</p>
+          <p>Happy coding. <img class="img-fluid pb-1 shadow bg-white" :src="require('../assets/c.png')" alt="C" title="C" /></p>
         </b-col>
       </b-row>
     </b-container>

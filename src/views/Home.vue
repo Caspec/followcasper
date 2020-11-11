@@ -90,7 +90,7 @@
         <b-col><h2>Website is live... <img class="img-fluid" :src="require('../assets/green.png')" alt="Live" title="Live" /></h2></b-col>
       </b-row>
       <b-row>
-        <b-col><h5>09-11-2020</h5></b-col>
+        <b-col><h5>published 09 november 2020</h5></b-col>
       </b-row>
       <b-row>
         <b-col>

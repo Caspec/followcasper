@@ -26,7 +26,7 @@
             />
           </router-link>
         </template>
-        <h2 class="text-white">Full Stack Web Development</h2>
+        <h2 class="text-white front-car-heading">Full Stack Web Development</h2>
       </b-carousel-slide>
       <b-carousel-slide>
         <template v-slot:img>
@@ -40,7 +40,7 @@
             />
           </router-link>
         </template>
-        <h2 class="text-white">Cloud - CMS - Server setup - UX and more...</h2>
+        <h2 class="text-white front-car-heading">Cloud - CMS - Server setup - UX and more...</h2>
       </b-carousel-slide>
     </b-carousel>
 
@@ -59,18 +59,18 @@
 
     <b-container class="bv-row mt-3 pt-4">
       <b-row>
-        <b-col>
-          <img class="img-fluid pb-3" :src="require('../assets/dot1x200w.png')" alt="dot" title="Frontend Development" />
+        <b-col class="front-content">
+          <img class="img-fluid pb-3 mb-2 shadow" :src="require('../assets/dot1x200w.png')" alt="dot" title="Frontend Development" />
           <h3>Frontend Development</h3>
           <p>Responsive websites built for an optimal user experience that achieves your business goals.</p>
         </b-col>
-        <b-col>
-          <img class="img-fluid pb-3" :src="require('../assets/dot2x200w.png')" alt="dot" title="Full Stack Development" />
+        <b-col class="front-content">
+          <img class="img-fluid pb-3 mb-2 shadow" :src="require('../assets/dot2x200w.png')" alt="dot" title="Full Stack Development" />
           <h3>Full Stack Development</h3>
           <p>Systems to be integrated together on different platforms and systems.</p>
         </b-col>
-        <b-col>
-          <img class="img-fluid pb-3" :src="require('../assets/dot3x200w.png')" alt="dot" title="CMS Development" />
+        <b-col class="front-content">
+          <img class="img-fluid pb-3 mb-2 shadow" :src="require('../assets/dot3x200w.png')" alt="dot" title="CMS Development" />
           <h3>CMS Development</h3>
           <p>Manage your content using the web's most popular content management systems.</p>
         </b-col>
@@ -96,7 +96,7 @@
         <b-col>
           <img class="img-fluid mb-3 shadow bg-white" :src="require('../assets/newwebsite.png')" alt="New website" title="New website" />
           <p>Super cool that I got this site up and running. My next project is under way and I can reveal that it has something with the real-estate area.</p>
-          <p>Happy coding. <img class="img-fluid pb-1 shadow bg-white" :src="require('../assets/c.png')" alt="C" title="C" /></p>
+          <p>Happy coding. <img class="img-fluid pb-1" :src="require('../assets/c.png')" alt="C" title="C" /></p>
         </b-col>
       </b-row>
     </b-container>
@@ -129,5 +129,16 @@ export default {
   #carousel-1 {
     display: none;
   }
+  .front-content {
+    margin-bottom: 2em;
+  }
 }
+
+@media screen and (max-width: 910px) {
+.front-car-heading {
+  font-size: 1.5rem !important;
+}
+}
+
+
 </style>

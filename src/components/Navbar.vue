@@ -12,10 +12,11 @@
         <b-nav-item :to="{ name: 'Home'}">Home</b-nav-item>
         <b-nav-item :to="{ name: 'About'}">About</b-nav-item>
         <b-nav-item-dropdown text="Portfolio">
-              <b-dropdown-item href="https://www.giftcard.followcasper.dk" target="_blank">Giftcard project</b-dropdown-item>
               <b-dropdown-item href="https://picassoonline.techotel.dk/en/hestraviken/hotel/booking/rooms/" target="_blank">Hestraviken Online booking</b-dropdown-item>
               <b-dropdown-item href="https://picassoonline.techotel.dk/en/kolding-hotel-apartments/kolding-hotel-apartments/booking/accommodation/" target="_blank">Kolding Online booking</b-dropdown-item>
-              <b-dropdown-item href="https://github.com/Caspec/mentorwebshop" target="_blank">Mentor project Github code</b-dropdown-item>
+              <b-dropdown-item href="https://www.giftcard.followcasper.dk" target="_blank">Giftcard project</b-dropdown-item>
+			  <b-dropdown-item href="https://github.com/Caspec/thetrainproject" target="_blank">Train project Github code</b-dropdown-item>
+			  <b-dropdown-item href="https://github.com/Caspec/mentorwebshop" target="_blank">Mentor project Github code</b-dropdown-item>
               <b-dropdown-item href="https://github.com/Caspec/CPHB-2Semester/tree/master/Fog" target="_blank">Fog project Github code</b-dropdown-item>
         </b-nav-item-dropdown>
         <b-nav-item href="./cv-casperENG.pdf" target="_blank">CV</b-nav-item>

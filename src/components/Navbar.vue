@@ -1,5 +1,5 @@
 <template>
-  <div class="navbg">
+  <div class="navbg shadow">
     <b-navbar toggleable="lg" type="dark" variant="black">
       <b-navbar-brand>
         <router-link

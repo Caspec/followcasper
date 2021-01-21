@@ -30,15 +30,15 @@
     <form>
        <div class="form-group">
             <label for="name">Your name*</label>
-            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
         </div>
         <div class="form-group">
             <label for="email">Email address*</label>
-            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
         </div>
         <div class="form-group">
             <label for="textarea">General message*</label>
-            <textarea class="form-control" id="textarea" rows="3" placeholder="Enter your message"></textarea>
+            <textarea class="form-control" id="textarea" rows="3" placeholder="Enter your message" required></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Send</button>
     </form>

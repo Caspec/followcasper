@@ -57,11 +57,20 @@
             <li>
               <span class="font-weight-bold">JavaScript</span>
             </li>
+            <li>
+              <span class="font-weight-bold">Headless CMS</span>
+            </li>
              <li>
               <span class="font-weight-bold">CMS</span>
             </li>
             <li>
               <span class="font-weight-bold">Accessibility</span>
+            </li>
+            <li>
+              <span class="font-weight-bold">Cloud server</span>
+            </li>
+            <li>
+              <span class="font-weight-bold">Git & Github</span>
             </li>
             <li>
               <span class="font-weight-bold">... More</span>

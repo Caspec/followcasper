@@ -28,6 +28,16 @@
               >Kolding Online booking</b-dropdown-item
             >
             <b-dropdown-item
+              href="https://picassoonline.techotel.dk/en/oasia/hotel/booking/rooms/"
+              target="_blank"
+              >Oasia Online booking</b-dropdown-item
+            >
+            <b-dropdown-item
+              href="https://bokning.pitehavsbad.se/sv/pite-havsbad/hotell/booking/rooms/"
+              target="_blank"
+              >Pite Havsbad Online booking</b-dropdown-item
+            >
+            <b-dropdown-item
               href="https://www.giftcard.followcasper.dk"
               target="_blank"
               >Giftcard project</b-dropdown-item

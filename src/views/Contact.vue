@@ -43,6 +43,15 @@
         <button type="submit" class="btn btn-primary">Send</button>
     </form>
     </b-container>
+
+    <b-container class="mt-4">
+      <b-row>
+        <b-col>
+         <img class="img-fluid mb-3 shadow bg-white" :src="require('../assets/boxanimation.gif')" alt="Box Animation" title="Box Animation" />
+        </b-col>
+      </b-row>
+    </b-container>
+
   </div>
 </template>
 

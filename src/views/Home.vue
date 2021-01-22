@@ -95,9 +95,9 @@
       <b-row>
         <b-col>
           <img class="img-fluid mb-3 shadow bg-white" :src="require('../assets/realestatecommerce24.jpg')" alt="Real Estate Commerce 24" title="Real Estate Commerce 24" />
-          <p>I am currently in the process of developing a real estate site. It is developed in Vue, Strapi.js and with a MySQL database. I think it's great that Strapi.js and other similar headless CMS platforms can provide so much out of the box so you can focus on other things in the development phase than changing API routes in Node.js, relationships between tables in the database, small fixes and errors.</p>
-          <p>I do not see anything else that headless CMS for many companies in the future will be the right way to go if they e.g. will make a Single Page Application with less maintenance and development hours so they could spend those hours improving the frontend part so the user gets a better experience of their website or mobile app.</p>
-          <p>It depends of many things... as always in software development but I think companies will see the opportunities that it gives for their future web products or mobile products with use of headless CMS platforms.</p>
+          <p>I am currently in the process of developing a real estate site. It is developed in Vue, Strapi.js and with a MySQL database. I think it's great that Strapi.js and other similar headless CMS platforms can provide so much out of the box so you can focus on other things in the development phase than changing API routes in Node.js, relationships between tables in the database, small fixes and errors. Checkout <a href="https://strapi.io" target="_blank">Strapi headless CMS.</a></p>
+          <p>I do not see anything else that headless CMS for many companies in the future will be the right way to go if they e.g. will make a Single Page Application with less maintenance and development hours so they could spend those hours improving the frontend optimization so the user gets a better experience of their website or mobile app.</p>
+          <p>It depends of many things... as always in software development but I think companies will see the opportunities that it gives for their future web products or mobile products with use of headless CMS platforms. Checkout <a href="https://github.com/Caspec/real-estate-commerce-24" target="_blank">Real Estate Commerce 24 Github repo.</a></p>
           <p>Happy coding. <img class="img-fluid pb-1" :src="require('../assets/c.png')" alt="C" title="C" /></p>
         </b-col>
       </b-row>

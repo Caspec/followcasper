@@ -77,6 +77,16 @@
       </b-row>
     </b-container>
 
+    <b-container class="mt-4 mb-4">
+      <b-row>
+        <b-col>
+        <div class="typical-wrap p-4 mb-4 shadow">
+          <typical class="typicalWrapper font-weight-bold" :steps="['Welcome to my playground! 👋. Im currently available for a new job. 🚀', 4000, 'Im currently working on a real estate solution with Vue, Strapi and MySQL. 🚀', 4000, 'Fun fact - There are three species of zebra. 🦓', 4000, 'Fun fact - A lion’s roar can be heard from 5 miles away. 🦁', 4000, 'Fun fact - A crocodile can’t poke its tongue out. 🐊', 4000]" :loop="Infinity" :wrapper="'h3'"></typical>
+        </div>
+        </b-col>
+      </b-row>
+    </b-container>
+
     <b-container class="mt-3" fluid>
       <b-row>
         <b-col>
@@ -122,9 +132,12 @@
 </template>
 
 <script>
+import typical from 'vue-typical'
 export default {
   name: "Home",
-  components: {},
+  components: {
+    typical
+    },
   data() {
     return {
       slide: 0,
@@ -150,6 +163,18 @@ export default {
   .front-content {
     margin-bottom: 2em;
   }
+  .typical-wrap{
+    margin: 0rem 0rem 0rem 0rem !important;
+  }
+  .typicalWrapper{
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .typical-wrap{
+    margin: 2rem 0rem 0rem 0rem !important;
+  }
 }
 
 @media screen and (max-width: 910px) {
@@ -158,5 +183,14 @@ export default {
 }
 }
 
+.typicalWrapper::after {
+  content: "|";
+  animation: blink 1s infinite step-start;
+  color: #2c8fd1;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
 
 </style>
